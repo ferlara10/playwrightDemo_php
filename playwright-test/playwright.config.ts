@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   use: {
-    headless: false,   // browser visible
+    headless: true,   // browser visible
     baseURL: 'http://localhost:3000', // optional
   },
   testDir: 'test',   // only look here for tests
