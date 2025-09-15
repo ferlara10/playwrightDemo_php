@@ -1,0 +1,11 @@
+{
+  "type": "node",
+  "request": "launch",
+  "name": "Debug Playwright Tests (ts-node)",
+  "runtimeArgs": ["-r", "ts-node/register"],
+  "program": "${workspaceFolder}/node_modules/.bin/playwright",
+  "args": ["test", "--project=chromium", "--headed"],
+  "console": "integratedTerminal"
+}
+
+  
