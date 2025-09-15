@@ -51,7 +51,7 @@ jobs:
         working-directory: playwright-test
 
       - name: Upload HTML Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: playwright-report
